@@ -1,2 +1,0 @@
-# Slate
-Created with CodeSandbox
