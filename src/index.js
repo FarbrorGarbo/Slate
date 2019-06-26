@@ -1,13 +1,19 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import { SlateView } from "./slateview";
 
 import "./styles.css";
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
+      <SlateView
+        readOnly={false}
+        document={"<html><body><h3>Heading 3</h3></body></html>"}
+        pageLoaded={() => {
+          console.log("Page loaded");
+        }}
+      />
     </div>
   );
 }
