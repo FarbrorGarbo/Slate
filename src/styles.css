@@ -1,3 +1,15 @@
 .App {
   font-family: sans-serif;
 }
+
+table,
+thead,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 0, 4px;
+}
+
+thead {
+  background-color: #dddddd;
+}

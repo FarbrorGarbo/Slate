@@ -269,7 +269,7 @@ export class SlateView extends React.Component {
   }
 
   componentDidMount() {
-    this.props.pageLoaded && this.props.pageLoaded();
+    // console.log(plugins, this._editorRef);
   }
 
   componentDidUpdate(prevProps, prevState) {
