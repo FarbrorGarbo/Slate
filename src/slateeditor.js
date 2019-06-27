@@ -25,8 +25,8 @@ export class SlateEditor extends SlateView {
   }
 
   render() {
-    const { value } = this.state;
-    const hasLink = value.inlines.some(inline => inline.type === "link");
+    // const { value } = this.state;
+    // const hasLink = value.inlines.some(inline => inline.type === "link");
     // const isRange = value.selection.isExpanded;
 
     return (
